@@ -1,16 +1,110 @@
-# React + Vite
+# 🛒 SmartCart – Smart Shopping and Price Comparison Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartCart is a web application designed to help users explore products, compare prices, save favourite products, and view historical price trends in one place.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Product Search:** Find products by name.
+- **Category Filtering:** Browse products by category.
+- **Sorting:** Organize products based on available sorting options.
+- **Product Comparison:** Compare product details in a dedicated comparison view.
+- **Wishlist:** Save favourite products and keep them saved across page refreshes.
+- **Price History Charts:** Visualize historical price trends using interactive charts.
+- **Price Drop Indicator:** Highlight price changes to help users understand price trends.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend**
+- React
+- JavaScript
+- CSS
+- Vite
+- Recharts
 
-## Expanding the ESLint configuration
+**Backend**
+- Python
+- Flask
+- SQLite
+- REST API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How to Run the Project
+
+### Prerequisites
+
+Install the following:
+- Node.js and npm
+- Python 3
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/husnaabdul/SmartCart.git
+cd SmartCart
+```
+
+### 2. Set Up the Frontend
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the frontend:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+### 3. Set Up the Backend
+
+Open a second terminal from the project folder.
+
+Create a Python virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+Install Flask:
+
+```bash
+pip install flask
+```
+
+Initialize the sample database:
+
+```bash
+python backend/init_db.py
+```
+
+Start the Flask backend:
+
+```bash
+cd backend
+python app.py
+```
+
+Keep both the frontend and backend running while using the application.
+
+## 📊 Sample Data
+
+SmartCart currently uses demonstration product data and sample price history. The displayed price trends and price-drop indicators are for demonstration purposes and do not represent guaranteed live prices.
+
+## 🎯 Project Objective
+
+The goal of SmartCart is to provide a simple shopping comparison interface while demonstrating frontend development, backend API integration, database management, and interactive data visualization.
+
+## 👩‍💻 Developer
+
+**Husna Abdul Lathif**
+
+GitHub: [husnaabdul](https://github.com/husnaabdul)
