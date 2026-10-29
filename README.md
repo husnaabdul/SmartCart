@@ -1,8 +1,16 @@
 # 🛒 SmartCart – Smart Shopping and Price Comparison Platform
 
 SmartCart is a web application designed to help users explore products, compare prices, save favourite products, and view historical price trends in one place.
+## 🖥️ Screenshots
 
-## ✨ Features
+### Homepage
+![SmartCart Homepage](screenshots/homepage.png)
+
+### Products Section
+![SmartCart Products](screenshots/products.png)
+
+### Product Comparison
+![SmartCart Comparison](screenshots/comparison.png)
 
 - **Product Search:** Find products by name.
 - **Category Filtering:** Browse products by category.
